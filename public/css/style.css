@@ -1,0 +1,76 @@
+header {
+    height: 120px;
+    background: #25b79f;
+    color: #ffffff;
+    margin-bottom: 32px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.score div {
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.score .player_1 {
+    background: #ffb000;
+}
+
+.score .player_2 {
+    background: #25b79f;
+}
+
+.ships img {
+    display: inline-block;
+}
+
+.ships .ship {
+    width: 50%;
+    margin-bottom: 10px;
+    padding-right: 10px
+}
+
+.ships .marker {
+    width: 10%;
+}
+
+@media (max-width: 991px) {
+    .ships div {
+        display: inline-block;
+        padding-right: 10px;
+        width: 50%;
+    }
+}
+.battlefield {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.battlefield.p1 {
+    border: 5px solid #ffb000;
+}
+
+.battlefield.p2 {
+    border: 5px solid #25b79f;
+}
+
+.battlefield td{
+    width: 65px;
+    height: 65px;
+    max-height: 65px;
+    min-height: 40px;
+    border: 1px solid #808080;
+}
+
+.miss {
+    background-image: url("../images/Miss.png");
+    background-size: cover; 
+}
+
+.hit {
+    background-image: url("../images/Hit.png");
+    background-size: cover;
+}
