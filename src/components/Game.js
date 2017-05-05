@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from '../containers/Header'
+import Header from './Header'
 import Battlefield from '../containers/Battlefield'
 import BattleScore from '../containers/BattleScore'
 
