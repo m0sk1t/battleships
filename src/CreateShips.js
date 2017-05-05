@@ -19,6 +19,7 @@ const CreateShips = (shipsSizeArr) => {
           'classId': i,
           'layout': []
         }
+        
       let anchorPoint = CreateAnchorPoint(ship.size),
         y = anchorPoint[0],
         x = anchorPoint[1],
@@ -43,7 +44,7 @@ const CreateShips = (shipsSizeArr) => {
               i--;
               continue createShip;
             }
-            
+
             i--;
             continue createShip;
           }
@@ -96,8 +97,7 @@ function RandDirection() {
 function updMap(map, ship) {
   ship.layout.forEach(part => {
     let y = part[0],
-      x = part[1],
-      doSomth = 0;
+        x = part[1];
 
     map[y][x] = ship.size;
 

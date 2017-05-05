@@ -7,7 +7,6 @@ const Square = ({ onClick, hited, shipId }) => (
       hited ? shipId != null ? 'hit' : 'miss' : ''
     }
   >
-  {shipId}
   </td>
 )
 
