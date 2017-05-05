@@ -43,6 +43,7 @@ const CreateShips = (shipsSizeArr) => {
               i--;
               continue createShip;
             }
+            
             i--;
             continue createShip;
           }
@@ -60,6 +61,7 @@ const CreateShips = (shipsSizeArr) => {
               i--;
               continue createShip;
             }
+
             i--;
             continue createShip;
           }
