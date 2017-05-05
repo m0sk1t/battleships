@@ -4,7 +4,7 @@ import { Provider } from 'react-redux'
 import { createStore } from 'redux'
 import gameInfo from './reducers'
 import Game from './components/Game'
-import CreateShips from './createShips'
+import CreateShips from './CreateShips'
 import { addShips, createMap } from './actions'
 
 let store = createStore(gameInfo);
